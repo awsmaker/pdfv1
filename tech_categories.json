@@ -1,0 +1,255 @@
+{
+  "Machine_Learning": {
+    "Supervised_Learning": {
+      "concepts": {
+        "Classification": [
+          "Binary Classification",
+          "Multi-class Classification",
+          "Multi-label Classification"
+        ],
+        "Regression": [
+          "Linear Regression",
+          "Polynomial Regression",
+          "Time Series Forecasting"
+        ]
+      },
+      "popular_methods": {
+        "algorithms": [
+          "Logistic Regression",
+          "Random Forest",
+          "XGBoost",
+          "LightGBM",
+          "Support Vector Machines"
+        ],
+        "evaluation_metrics": [
+          "Accuracy",
+          "Precision",
+          "Recall",
+          "F1-Score",
+          "RMSE",
+          "MAE"
+        ]
+      },
+      "applications": [
+        "Fraud Detection",
+        "Credit Scoring",
+        "Customer Churn Prediction",
+        "Price Prediction",
+        "Disease Diagnosis"
+      ]
+    },
+    "Unsupervised_Learning": {
+      "clustering": {
+        "algorithms": [
+          "K-Means",
+          "DBSCAN",
+          "Hierarchical Clustering",
+          "Mean Shift"
+        ],
+        "applications": [
+          "Customer Segmentation",
+          "Anomaly Detection",
+          "Document Clustering"
+        ]
+      },
+      "dimensionality_reduction": {
+        "techniques": [
+          "PCA",
+          "t-SNE",
+          "UMAP",
+          "Autoencoders"
+        ],
+        "applications": [
+          "Feature Selection",
+          "Data Visualization",
+          "Noise Reduction"
+        ]
+      }
+    },
+    "Deep_Learning": {
+      "architectures": {
+        "CNN": [
+          "ResNet",
+          "VGG",
+          "EfficientNet",
+          "Vision Transformer"
+        ],
+        "RNN": [
+          "LSTM",
+          "GRU",
+          "Bidirectional RNN"
+        ],
+        "Transformers": [
+          "BERT",
+          "GPT",
+          "T5",
+          "LLaMA"
+        ]
+      },
+      "frameworks": {
+        "PyTorch": [
+          "Lightning",
+          "FastAI",
+          "Transformers"
+        ],
+        "TensorFlow": [
+          "Keras",
+          "TF Extended",
+          "TF Lite"
+        ]
+      }
+    },
+    "Generative_Models": {
+      "architectures": {
+        "GANs": [
+          "StyleGAN",
+          "CycleGAN",
+          "Pix2Pix"
+        ],
+        "Diffusion_Models": [
+          "Stable Diffusion",
+          "DALL-E",
+          "Midjourney"
+        ]
+      },
+      "applications": [
+        "Image Generation",
+        "Text-to-Image",
+        "Style Transfer",
+        "Audio Synthesis"
+      ]
+    },
+    "MLOps": {
+      "tools": {
+        "experiment_tracking": [
+          "MLflow",
+          "Weights & Biases",
+          "Neptune.ai"
+        ],
+        "model_serving": [
+          "BentoML",
+          "TorchServe",
+          "TensorFlow Serving"
+        ],
+        "pipeline_orchestration": [
+          "Kubeflow",
+          "Airflow",
+          "Argo"
+        ]
+      }
+    }
+  },
+  "DevOps": {
+    "Containerization": {
+      "technologies": {
+        "containers": [
+          "Docker",
+          "Podman",
+          "Containerd"
+        ],
+        "orchestration": [
+          "Kubernetes",
+          "Docker Swarm",
+          "OpenShift"
+        ]
+      },
+      "concepts": [
+        "Container Security",
+        "Image Registry",
+        "Network Policies",
+        "Resource Management"
+      ]
+    },
+    "Infrastructure_as_Code": {
+      "provisioning": {
+        "tools": [
+          "Terraform",
+          "Pulumi",
+          "AWS CloudFormation"
+        ],
+        "concepts": [
+          "State Management",
+          "Resource Graph",
+          "Dependency Management"
+        ]
+      },
+      "configuration": {
+        "tools": [
+          "Ansible",
+          "Chef",
+          "Puppet"
+        ]
+      }
+    },
+    "CI_CD": {
+      "platforms": [
+        "GitHub Actions",
+        "GitLab CI",
+        "Jenkins",
+        "ArgoCD"
+      ],
+      "practices": [
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment",
+        "GitOps"
+      ]
+    },
+    "Cloud_Platforms": {
+      "AWS": [
+        "EC2",
+        "S3",
+        "Lambda",
+        "EKS",
+        "RDS"
+      ],
+      "Azure": [
+        "Virtual Machines",
+        "AKS",
+        "Azure Functions",
+        "Cosmos DB"
+      ],
+      "GCP": [
+        "Compute Engine",
+        "GKE",
+        "Cloud Functions",
+        "BigQuery"
+      ]
+    },
+    "Monitoring": {
+      "metrics": {
+        "tools": [
+          "Prometheus",
+          "Grafana",
+          "Datadog"
+        ]
+      },
+      "logging": {
+        "stack": [
+          "Elasticsearch",
+          "Logstash",
+          "Kibana"
+        ],
+        "tools": [
+          "Fluentd",
+          "Loki",
+          "CloudWatch Logs"
+        ]
+      }
+    },
+    "DevSecOps": {
+      "security_tools": [
+        "SonarQube",
+        "HashiCorp Vault",
+        "OWASP ZAP",
+        "Snyk"
+      ],
+      "practices": [
+        "SAST",
+        "DAST",
+        "Container Scanning",
+        "Secret Management"
+      ]
+    }
+  }
+} 

@@ -1,0 +1,113 @@
+{
+  "Supervised_Learning": {
+    "concepts_fondamentaux": {
+      "théorie": [
+        "Fonction de perte",
+        "Gradient descent",
+        "Biais-Variance tradeoff",
+        "Validation croisée",
+        "Régularisation"
+      ],
+      "préparation_données": [
+        "Feature engineering",
+        "Normalisation",
+        "Gestion des valeurs manquantes",
+        "Encodage des variables catégorielles",
+        "Train-test split"
+      ]
+    },
+    "algorithmes_détaillés": {
+      "classification": {
+        "logistic_regression": {
+          "concepts": [
+            "Fonction sigmoïde",
+            "Maximum likelihood",
+            "Régularisation L1/L2"
+          ],
+          "use_cases": [
+            "Prédiction binaire",
+            "Scoring crédit",
+            "Détection de spam"
+          ]
+        },
+        "random_forest": {
+          "concepts": [
+            "Bagging",
+            "Feature importance",
+            "Out-of-bag error"
+          ],
+          "hyperparamètres": [
+            "n_estimators",
+            "max_depth",
+            "min_samples_split"
+          ]
+        }
+      },
+      "regression": {
+        "linear_regression": {
+          "méthodes": [
+            "Ordinary Least Squares",
+            "Ridge Regression",
+            "Lasso Regression"
+          ],
+          "diagnostics": [
+            "R-squared",
+            "Résidus",
+            "Homoscédasticité"
+          ]
+        },
+        "gradient_boosting": {
+          "frameworks": [
+            "XGBoost",
+            "LightGBM",
+            "CatBoost"
+          ],
+          "optimisation": [
+            "Learning rate",
+            "Tree depth",
+            "Subsampling"
+          ]
+        }
+      }
+    },
+    "évaluation": {
+      "métriques_classification": {
+        "basiques": [
+          "Accuracy",
+          "Precision",
+          "Recall",
+          "F1-score"
+        ],
+        "avancées": [
+          "ROC-AUC",
+          "PR-AUC",
+          "Cohen's Kappa"
+        ]
+      },
+      "métriques_regression": [
+        "MSE",
+        "RMSE",
+        "MAE",
+        "R²",
+        "Adjusted R²"
+      ]
+    },
+    "applications_pratiques": {
+      "finance": [
+        "Détection de fraude",
+        "Scoring crédit",
+        "Prédiction de défaut"
+      ],
+      "marketing": [
+        "Churn prediction",
+        "Lead scoring",
+        "Segmentation clients"
+      ],
+      "santé": [
+        "Diagnostic médical",
+        "Prédiction de risques",
+        "Analyse d'images médicales"
+      ]
+    }
+  }
+} 
